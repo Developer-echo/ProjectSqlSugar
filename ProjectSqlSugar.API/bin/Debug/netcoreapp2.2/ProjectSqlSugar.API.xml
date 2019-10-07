@@ -4,5 +4,29 @@
         <name>ProjectSqlSugar.API</name>
     </assembly>
     <members>
+        <member name="M:ProjectSqlSugar.API.Controllers.UserController.GetDbConn">
+            <summary>
+            数据库连接测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectSqlSugar.API.Controllers.UserController.BuildImg">
+            <summary>
+            生成海报
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ProjectSqlSugar.API.ImageHelper">
+            <summary>
+            图片操作帮助类
+            </summary>
+        </member>
+        <member name="M:ProjectSqlSugar.API.ImageHelper.BuildImgSharp(System.String)">
+            <summary>
+            生成海报图片
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
